@@ -43,8 +43,10 @@ app.listen(port, function() {
 })
 
 // Routes
-
+//Displaying the home page
+//----------------------------------------------------------------
 app.get("/", function(req, res) {
+	//Sorting the articles in descending order from date created
 	Article.find({}, null, {sort: {created: -1}}, function(err, data) {
 		if(data.length === 0) {
 			res.render("placeholder", {message: "There's nothing scraped yet. Please click \"Scrape For Newest Articles\" for fresh and delicious news."});
