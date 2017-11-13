@@ -10,24 +10,26 @@ https://agile-hamlet-63972.herokuapp.com/saved
 
 ### Key Dependencies
 
-`request`: enables `cheerio` to get access to front-end code of https://www.nytimes.com/section/world
+#### npm Packages to install
+`request`
 
-`cheerio`: scrapes front-end code from https://www.nytimes.com/section/world
+`cheerio`
 
-`mongoose`: be in charge of database of `NYT Scraper`
+`mongoose`
 
-`express`: builds server-side routes and functions
+`express`
 
-`morgan`: logs server-side requests, helping debugging
+`morgan`
 
-`express-handlebars`: a powerful front-end builder without requiring multiple html pages
+`express-handlebars`
 
 `body-parser
 
 ##Instructions
-
+To run the app locally on your system
 *Make sure you have fulfilled the prerequisites above.
 *Clone this repository with git clone https://github.com/Yamininigudkar/news-mongodb 
 *Install modules with npm install
-*Run node server.js
+* run your Mongodb on one CLI
+*Run node server.js on the other CLI
 *Go to localhost:3000 in your web browser.
