@@ -26,10 +26,10 @@ https://agile-hamlet-63972.herokuapp.com/saved
 `body-parser
 
 ##Instructions
-To run the app locally on your system
-Make sure you have fulfilled the prerequisites above.
-Clone this repository with git clone https://github.com/Yamininigudkar/news-mongodb 
-Install modules with npm install
- run your Mongodb on one CLI
-Run node server.js on the other CLI
-Go to localhost:3000 in your web browser.
+-To run the app locally on your system
+-Make sure you have fulfilled the prerequisites above.
+-Clone this repository with git clone https://github.com/Yamininigudkar/news-mongodb 
+-Install modules with npm install
+- run your Mongodb on one CLI
+-Run node server.js on the other CLI
+-Go to localhost:3000 in your web browser.
